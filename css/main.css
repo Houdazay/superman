@@ -130,5 +130,13 @@ figure figcaption ul li
     border-radius: 4px;
     width: 155px;
     line-height: 3rem;
- 
+}
+.button-clean
+{
+background-color: #c0392B;
+color: var(--background-color);
+border-radius: 4px;
+width: 155px;
+line-height: 3rem;
+
 }
