@@ -8,3 +8,14 @@ html
     height: 50%;
     background-color: var(--background-body-color);
 }
+
+body
+{
+    font-size: 12px;
+    font-family:sans-serif;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    color: var(--background-text-color);
+    padding: 0px;
+}
