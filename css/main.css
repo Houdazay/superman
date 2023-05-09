@@ -123,4 +123,12 @@ figure figcaption ul li
     display: inline-block;
     margin: 1rem;
 }
-
+.button-search
+{
+    background-color: #2179b4;
+    color: var(--background-color);
+    border-radius: 4px;
+    width: 155px;
+    line-height: 3rem;
+ 
+}
