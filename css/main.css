@@ -39,5 +39,14 @@ h1,h2,p,figure,figcaption,ul,li
     --background-title-color: #015a78;
     --background-list-color: #2c3f50;
 }
+header h1
+{
+    font-family: 'lobster';
+    text-align: center;
+    padding: 2rem;
+    color: var(--background-color);
+    background-color: var(--background-title-color);
+    padding-bottom: 1rem;
 
+}
 
