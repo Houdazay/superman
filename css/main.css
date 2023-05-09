@@ -81,3 +81,9 @@ main figure img
     vertical-align: middle;
     object-fit: cover;
 }
+figure figcaption h2 
+{
+    padding: 1rem;
+    text-align: center;
+    font-size: 23px;
+}
