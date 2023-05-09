@@ -103,3 +103,24 @@ figure figcaption ul li
     margin-top: 1px;
     text-align: left;
 }
+.commics-listes
+{
+  text-align: center;
+  color: var(--background-text-color);
+  background-color: var(--background-color);
+  width: 70rem;
+  padding: 2rem;
+  margin: 0.5rem auto;
+  padding-bottom:0px ;
+}
+.commics-listes p
+{
+    text-align: center;
+}
+
+.commics-listes ul li
+{
+    display: inline-block;
+    margin: 1rem;
+}
+
