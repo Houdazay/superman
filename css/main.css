@@ -2,4 +2,9 @@
 /*  reset */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
-
+html
+{
+    font-size: 60.5%;   
+    height: 50%;
+    background-color: var(--background-body-color);
+}
