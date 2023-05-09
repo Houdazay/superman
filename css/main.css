@@ -156,3 +156,8 @@ footer
      margin: 0.5rem auto ;
      padding-bottom:1px;
  }
+ footer p
+{
+    color: var(--background-color);
+}
+
