@@ -1,7 +1,6 @@
-
 /*  reset */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
+
 html
 {
     font-size: 62.5%;   
@@ -17,7 +16,7 @@ body
     line-height: 1.6;
     background-color: var(--background-body-color);
     color: var(--background-text-color);
-    padding: 0px;
+    padding: 0;
 }
 h1,h2,p,figure,figcaption,ul,li
 {
@@ -59,8 +58,6 @@ main section
 }
 
 main section h2
-
-
 {
     font-family: 'lobster' ;
     padding: 1rem;
@@ -68,11 +65,14 @@ main section h2
     font-weight: bold;
     font-size: 23px;
 }
+
 main section p
 
 {
     text-align: justify;
+
 }
+
 main figure img
 {
     display: inline-block;
@@ -123,35 +123,37 @@ figure figcaption ul li
     display: inline-block;
     margin: 1rem;
 }
+
+.commics-listes button
+{
+    border-radius: .4rem;
+    color: var(--background-color);
+    width: 19rem;
+    padding: 1.58rem;
+
+}
 .button-search
 {
     background-color: #2179b4;
-    color: var(--background-color);
-    border-radius: .4rem;
-    width: 15.5rem;
-    line-height: 3rem;
+
+    
 }
 .button-clean
 {
-background-color: #c0392B;
-color: var(--background-color);
-border-radius: .4rem;
-width: 15.5rem;
-line-height: 3rem;
+    background-color: #c0392B;
+  
 }
 .button-add
 {
-background-color: #166a3d;
-color: var(--background-color);
-border-radius: .4rem;
-width: 15.5rem;
-line-height: 3rem;
+    background-color: #166a3d;
+  
+
 }
 footer
 {
      background-color: var(--background-list-color);
      text-align: center;
-     width: 70rem;
+     max-width: 70rem;
      padding: 1rem;
      margin: 0.5rem auto ;
      padding-bottom:.1rem;
@@ -161,3 +163,13 @@ footer
     color: var(--background-color);
 }
 
+@media screen and (max-width: 100rem){
+    
+    main section{
+        width: auto;
+    }
+    footer, .commics-listes{
+        width: auto;
+    }
+    
+}
