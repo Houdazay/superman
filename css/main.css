@@ -19,3 +19,10 @@ body
     color: var(--background-text-color);
     padding: 0px;
 }
+h1,h2,p,figure,figcaption,ul,li
+{
+    list-style: none;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
