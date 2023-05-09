@@ -93,3 +93,13 @@ figure figcaption p
     text-align: center;
 
 }
+figure figcaption ul li
+{
+    padding: 1rem;
+    background-color: var(--background-list-color);
+    color: #f0f1f2;
+    margin-left: 0rem;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    text-align: left;
+}
