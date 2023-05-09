@@ -138,5 +138,13 @@ color: var(--background-color);
 border-radius: 4px;
 width: 155px;
 line-height: 3rem;
+}
+.button-add
+{
+background-color: #166a3d;
+color: var(--background-color);
+border-radius: 4px;
+width: 155px;
+line-height: 3rem;
 
 }
