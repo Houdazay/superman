@@ -50,3 +50,26 @@ header h1
 
 }
 
+main section
+{
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--background-color);
+}
+
+main section h2
+
+
+{
+    font-family: 'lobster' ;
+    padding: 1rem;
+    color: var(--background-title-color);
+    font-weight: bold;
+    font-size: 23px;
+}
+main section p
+
+{
+    text-align: justify;
+}
