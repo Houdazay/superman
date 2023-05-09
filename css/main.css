@@ -146,5 +146,13 @@ color: var(--background-color);
 border-radius: 4px;
 width: 155px;
 line-height: 3rem;
-
 }
+footer
+{
+     background-color: var(--background-list-color);
+     text-align: center;
+     width: 70rem;
+     padding: 1rem;
+     margin: 0.5rem auto ;
+     padding-bottom:1px;
+ }
